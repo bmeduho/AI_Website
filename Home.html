@@ -6,6 +6,40 @@
 		<link rel="stylesheet" type="text/css" href="Main.css" />
 	</head>
 	<body>
+		<nav>
+			<ul>
+				<li><a href="Home.html">Home</a></li>
+				<li><a href="WebPages/AIMain.html">Artificial Intelligence</a>
+					<ul>
+						<li><a href="WebPages/J.html">"J"<br />EAI01010</a></li>
+						<li><a href="WebPages/K.html">"K"<br />EAI01011</a></li>
+						<li><a href="WebPages/Appa.html">"Appa"<br />EAI0110110</a></li>
+					</ul>
+				</li>
+				<li><a href="WebPages/HumanMain.html">Human Agents</a>
+					<ul>
+						<li><a href="WebPages/Eddy.html">"Eddy"<br />Edith Joy Cutts</a></li>
+						<li><a href="WebPages/Kylar.html">Kylar<br />Froy Carter</a></li>
+						<li><a href="WebPages/Steven.html">Steven<br />William Fafari</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<div id="Home_Summary_Container" >
+			<div id="Home_Summary_img_Container" >
+				<img id="Home_Summary_img" usemap="#Home_Summary_Map"/>
+			</div>
+			<div id="Home_Summary_Description_Container" >
+				<p id="Home_Summary_Description">
+					
+				</p>
+			</div>
+		</div>
 		
+		<map name="Home_Summary_Map" id="Home_Summary_Map">
+			<area shape="rect" coords="0,0,100,350" onclick="ChangeHomeSummary('decrement')"/>
+			<area shape="rect" coords="500,0,600,350" onclick="ChangeHomeSummary('increment')"/>
+		</map>
+		<script src="WebPages/JavaScriptHome.js"></script>
 	</body>
 </html>
