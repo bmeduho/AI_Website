@@ -1,3 +1,16 @@
+/* Color classes */
+.rgba-primary-0 { color: rgba( 67,107,137,1) }	/* Main Primary color */
+.rgba-primary-1 { color: rgba(214,226,234,1) }
+.rgba-primary-2 { color: rgba( 74,151,209,1) }
+.rgba-primary-3 { color: rgba( 43, 53, 60,1) }
+.rgba-primary-4 { color: rgba(  3, 31, 53,1) }
+
+.rgba-complement-0 { color: rgba(212,163, 97,1) }	/* Main Complement color */
+.rgba-complement-1 { color: rgba(255,245,232,1) }
+.rgba-complement-2 { color: rgba(255,180, 79,1) }
+.rgba-complement-3 { color: rgba( 93, 81, 65,1) }
+.rgba-complement-4 { color: rgba( 82, 47,  0,1) }
+
 body {
 	margin: 0px;
 	padding: 0px;
